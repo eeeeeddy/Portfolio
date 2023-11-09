@@ -1,11 +1,5 @@
-@font-face {
-  font-family: 'MaruSquare-Regular';
-  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10-21@1.0/MaruSquare-Regular.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-}
+@import url(//fonts.googleapis.com/earlyaccess/nanumgothic.css);
 
-body {
-  margin: 0;
-  font-family: 'MaruSquare-Regular';
+.nanumgothic * {
+  font-family: 'Nanum Gothic', sans-serif;
 }

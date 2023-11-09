@@ -7,7 +7,7 @@ import Projects from './Projects';
 
 function Main() {
     return (
-        <div style={{ fontFamily: 'MaruBuri-Regular' }}>
+        <div style={{ fontFamily: 'Nanum Gothic' }}>
             <div className='Navbar'>
                 <Navbar />
             </div>
