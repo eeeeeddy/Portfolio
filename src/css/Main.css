@@ -1,0 +1,6 @@
+.Navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100; /* 다른 요소 위에 표시되도록 설정 */
+}
