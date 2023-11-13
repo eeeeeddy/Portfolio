@@ -16,8 +16,7 @@ function navbar() {
                         <a className="nav-link" href="#Projects">Projects</a>
                     </li>
                 </ul>
-            </nav>
-            
+            </nav>    
         </div>
     );
 }
