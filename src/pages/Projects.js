@@ -3,8 +3,13 @@ import React from 'react';
 function Projects() {
     return (
         <div id="Projects">
-            <h4>Projects</h4>
-            <p style={{ height: "1000px" }}>...</p>
+            <p className='display-5 text-start'>Projects</p>
+            <ul>
+                <p>- EGG</p>
+                <p>- BeatBuddy</p>
+                <p>- Portfolio Page</p>
+            </ul>
+            <div style={{height:"500px"}}></div>
         </div>
     );
 }

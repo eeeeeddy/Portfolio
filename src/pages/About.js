@@ -2,9 +2,10 @@ import React from 'react';
 
 function About() {
     return (
-        <div id="About">
-            <h4>About</h4>
-            <p style={{ height: "1000px" }}>안녕하세요</p>
+        <div id="About" className='About'>
+            <p className='display-5 text-start'>About</p>
+            
+            <div className="img" style={{height:"500px"}}></div>
         </div>
     );
 }
