@@ -1,4 +1,9 @@
-.img {
+/* .img {
     background-image: url('../image/bg-img.jpg');
-}
+} */
 
+#About {
+    background-image: url('../image/bg-img.jpg');
+    background-size: cover;
+    height: 500px;
+}
