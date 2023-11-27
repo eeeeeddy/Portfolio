@@ -2,7 +2,7 @@ import React from 'react';
 
 function Skills() {
     return (
-        <div id="Skills">
+        <div id="Skills" className='mt-3 mb-5'>
             <p className='display-5 text-start'>Skills</p>
             {/* <img src="" width="40" height="40"/> */}
             <img src="https://www.vectorlogo.zone/logos/reactjs/reactjs-ar21.svg" alt="React" width="80" height="40"/>
