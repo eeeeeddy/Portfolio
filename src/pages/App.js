@@ -1,19 +1,17 @@
-import { HashRouter, Route, Routes } from 'react-router-dom';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import '../css/App.css';
-import Main from  './Main';
-import Home from './Home';
+import Main from './Main';
 
 function App() {
-  return (
-    <HashRouter>
-      <div className="App">
-        <Routes>
-          <Route path="/main" element={<Main />} />
-          <Route path='/' element={<Home />} />
-        </Routes>
-      </div>
-    </HashRouter>
-  );
+    return (
+        <BrowserRouter basename={process.env.PUBLIC_URL}>
+            <div className="App">
+                <Routes>
+                    <Route path="/" element={<Main />} />
+                </Routes>
+            </div>
+        </BrowserRouter>
+    );
 }
 
 export default App;
