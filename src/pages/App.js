@@ -1,9 +1,6 @@
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import { BrowserRouter, Route, Routes, Navigate } from 'react-router-dom';
 import '../css/App.css';
 import Main from './Main';
-import About from './About';
-import Projects from './Projects';
-import Skills from './Skills';
 
 function App() {
     return (
@@ -11,9 +8,8 @@ function App() {
             <div className="App">
                 <Routes>
                     <Route path="/" element={<Main />} />
-                    <Route path="/About" element={<About />} />
-                    <Route path="/Projects" element={<Projects />} />
-                    <Route path="/Skills" element={<Skills />} />
+                    {/* 이전 개별 라우트는 단일 페이지로 통합 */}
+                    <Route path="*" element={<Navigate to="/" replace />} />
                 </Routes>
             </div>
         </BrowserRouter>
