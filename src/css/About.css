@@ -1,9 +1,1 @@
-/* .img {
-    background-image: url('../image/bg-img.jpg');
-} */
-
-#About {
-    background-image: url('../image/bg-img.jpg');
-    background-size: cover;
-    height: 500px;
-}
+/* About 섹션 전용 스타일 (공통 스타일은 App.css) */
