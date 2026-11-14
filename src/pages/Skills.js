@@ -2,6 +2,12 @@ import React from 'react';
 import Reveal from './Reveal';
 import { skillGroups } from '../data/repos';
 
+// icon이 '/'로 시작하면 public 폴더의 로컬 아이콘, 아니면 simple-icons 슬러그
+const iconSrc = (s) =>
+    s.icon.startsWith('/')
+        ? `${process.env.PUBLIC_URL}${s.icon}`
+        : `https://cdn.simpleicons.org/${s.icon}/${s.color}`;
+
 function Skills() {
     return (
         <section id="skills" className="section section-alt">
@@ -21,7 +27,7 @@ function Skills() {
                                             {s.icon && (
                                                 <img
                                                     className="skill-icon"
-                                                    src={`https://cdn.simpleicons.org/${s.icon}/${s.color}`}
+                                                    src={iconSrc(s)}
                                                     alt=""
                                                     loading="lazy"
                                                     onError={(e) => { e.target.style.display = 'none'; }}
