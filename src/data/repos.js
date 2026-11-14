@@ -116,7 +116,8 @@ export const skillGroups = [
     {
         group: 'Backend',
         items: [S('Spring Boot', 'springboot', '6DB33F'), S('FastAPI', 'fastapi', '009688'),
-            S('JWT', 'jsonwebtokens', '888888'), S('Redis', 'redis', 'DC382D')],
+            S('.NET', 'dotnet', '512BD4'), S('JWT', 'jsonwebtokens', '888888'),
+            S('Redis', 'redis', 'DC382D')],
     },
     {
         group: 'Frontend',
@@ -131,13 +132,15 @@ export const skillGroups = [
     },
     {
         group: 'Database / Search',
-        items: [S('MySQL', 'mysql', '4479A1'), S('Redis', 'redis', 'DC382D'),
-            S('ElasticSearch', 'elasticsearch', '00BFB3'), S('Kibana', 'kibana', '00BFB3')],
+        items: [S('MySQL', 'mysql', '4479A1'), S('Oracle Database'), S('Redis', 'redis', 'DC382D'),
+            S('Supabase', 'supabase', '3FCF8E'), S('ElasticSearch', 'elasticsearch', '00BFB3'),
+            S('Kibana', 'kibana', '00BFB3')],
     },
     {
         group: 'Infra / DevOps',
         items: [S('Docker', 'docker', '2496ED'), S('AWS EC2'),
-            S('AWS CodeDeploy'), S('GitHub Actions', 'githubactions', '2088FF'),
+            S('AWS CodeDeploy'), S('Azure'), S('Vercel', 'vercel', '888888'),
+            S('GitHub Actions', 'githubactions', '2088FF'),
             S('GitHub Pages', 'githubpages', '888888'), S('Ubuntu', 'ubuntu', 'E95420')],
     },
     {
